@@ -1,0 +1,22 @@
+
+
+<h2 class="heading">Doing</h2>
+<div class="container">
+    <div *ngFor="let doing of doings; let i = index">
+        <p>{{doing}}</p>
+        <div class="button">
+            <button mat-mini-fab color="warn"
+                (click)="onDelete(i)"
+                 aria-label="Example icon button with a delete icon" 
+                 class="delete">
+                    <mat-icon>delete</mat-icon>
+                </button>
+            <button mat-mini-fab style="background-color: #DDD101;"
+            (click)="toDone(doing, i)"
+            aria-label="Example icon button with a delete icon">
+                <mat-icon>shortcut</mat-icon>
+            </button>
+        </div>
+        <hr class="line" />
+    </div>
+</div>

@@ -1,0 +1,39 @@
+.container{
+    margin-top: 10px;
+}
+
+.todo{
+   margin-left: -80px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   font-size: 30px;
+}
+
+.input{
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    font-size: 20px;
+    height: 30px;
+}
+
+.add{
+    height: 30px;
+    margin-left: 10px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 70px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.add:active {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}

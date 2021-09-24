@@ -1,0 +1,17 @@
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+
+
+#pg{
+    width: 800px;
+    margin-left: 400px;
+    margin-top: -40px;
+    background-color: transparent;
+}

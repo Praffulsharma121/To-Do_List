@@ -1,0 +1,15 @@
+
+
+<h2 class="heading">Done</h2>
+<div class="container">
+    <div *ngFor="let done of dones">
+        <p>{{done}}</p>
+        <button mat-mini-fab disabled 
+        class="button"
+        aria-label="Example icon button with a delete icon" 
+        style="background-color: #4DD637;">
+            <mat-icon style="color: black;">emoji_events</mat-icon>
+        </button>
+        <hr class="line" />
+    </div>
+</div>

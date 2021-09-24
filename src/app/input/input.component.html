@@ -1,0 +1,6 @@
+<div class="container">
+    <label class="todo">To-Do</label>
+    <input type="text" class="input" [(ngModel)]="task">
+    <button type="button" class="add" (click)="onAdd()" [disabled]="!task">Add</button>
+</div>
+

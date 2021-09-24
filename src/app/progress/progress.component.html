@@ -1,0 +1,13 @@
+
+<h2 class="heading">Progress-</h2>
+<div class="progress" id="pg">
+    <div class="progress-bar progress-bar-danger" role="progressbar" [style.width.%]="[todoPer]">
+      To-do ({{todoPer}})%
+  </div>
+  <div class="progress-bar progress-bar-warning" role="progressbar" [style.width.%]="[doingPer]">
+      Doing ({{doingPer}})%
+  </div>
+  <div class="progress-bar progress-bar-success" role="progressbar" [style.width.%]="[donePer]">
+      Done ({{donePer}})%
+  </div>
+</div>
