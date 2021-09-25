@@ -1,5 +1,21 @@
 # ToDo
 
+A To-Do list builds using Angular, Angular Material and Bootstrap.
+
+
+It shows the list of tasks you have to do, what you are doing, and the things that are done with your progress.
+
+![todopic](https://user-images.githubusercontent.com/63968420/134770553-7b523c79-5d1b-4f9c-9298-c462dd862932.png)
+
+![todopic2](https://user-images.githubusercontent.com/63968420/134770556-f28d4750-3be4-466a-90da-5af88a217dcd.png)
+
+Demo - 
+![Screen Recording 2021-09-24 at 9 04 58 PM](https://user-images.githubusercontent.com/63968420/134770584-f74ea461-400e-4c4f-a396-d21f43e0c4f3.gif)
+
+Link -  https://praffulsharma121.github.io/To-Do_List/
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
 ## Development server
